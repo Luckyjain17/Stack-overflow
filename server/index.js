@@ -22,7 +22,7 @@ app.use('/questions', questionRoutes)
 app.use('/answer', answerRoutes)
 const PORT = process.env.PORT || 5000
 
-const CONNECTION_URL = process.nextTick.PORT || 5000
+// const CONNECTION_URL = process.nextTick.PORT || 5000
 
 const DATABASE_URL = process.env.CONNECTION_URL
 
